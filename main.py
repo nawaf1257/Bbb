@@ -1,8 +1,7 @@
-import os
 import discord
 from discord.ext import commands
 
-TOKEN = os.getenv("TOKEN")
+TOKEN = "هنا_التوكن_حقك"
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="!", intents=intents)
